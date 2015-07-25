@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/masonry.pkgd.js"></script>
+	<script type="text/javascript" src="js/jquery.touchswipe.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="sidebar">
+	<ul class="sidebar__menu">
+		<li class="sidebar__menu_item"><a href="index.html">Меню</a></li>
+		<li class="sidebar__menu_item"><a href="cart.html">Заказ</a></li>
+		<li class="sidebar__menu_item"><a href="review.html">Отзывы</a></li>
+	</ul>
+	<a href="#" class="sidevar go-to-site">Перейти<br>на сайт</a>
+</div>
+<div class="container">
+	<div class="header">
+		<a class="header__show-sidebar" href="#">
+			<span class="header__show-sidebar_line"></span>
+			<span class="header__show-sidebar_line"></span>
+			<span class="header__show-sidebar_line"></span>
+		</a>
+		<div class="header__cart">
+			5 Блюд / 1456 р.
+		</div>
+	</div>
+	<div class="content content-catalog">
+		<ul class="content__menu">
+			<li class="content__menu_item"><a href="catalog-m.html">Завтраки</a></li>
+			<li class="content__menu_item content__menu_item-parent"><a href="#">Азиатская кухня</a>
+				<ul class="content__menu_sub">
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Суши</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Гунканы</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Нигири</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Бульоны</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Сашими</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Маки</a></li>
+					<li class="content__menu_item_sub"><a href="catalog-m.html">Ассорти</a></li>
+				</ul>
+			</li>
+			<li class="content__menu_item"><a href="catalog-m.html">Холодный закуски</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Салаты</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Горячие закуски</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Закуски к пиву</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Супы</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Паста</a></li>
+			<li class="content__menu_item"><a href="#">Пельмени</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Ризотто</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Гарниры</a></li>
+			<li class="content__menu_item"><a href="catalog-m.html">Бар</a></li>
+		</ul>
+		<div class="wrapper">
+			<div class="navigation">
+				<div class="category-back">
+					<a href="catalog-m.html">Завтраки</a>
+				</div>
+			</div>
+			<div class="item-page">
+				<div class="item-page_image"><img src="image/img-2.jpg" alt=""></div>
+				<div class="item-page_info">
+					<div class="item-page_info_title">Омлет по деревенски</div>
+					<div class="item-page_info_title-price">(240 г) - <span>170 р.</span></div>
+					<p>Хрустящие тосты с 3аnечённой курицей, поджаренным беконом, маринованными огурцами, куриным яйцом, свежими помидорами, заправленные майонезом</p>
+				</div>
+				<div class="item-page_calculation">
+					Количество <span class="item-page_calculation_plus">–</span><input type="text" value="1" class="item-page_calculation_total" disabled="disabled"><span class="item-page_calculation_minus">+</span>
+
+					<input type="button" value="Заказать" class="item-page_calculation_send">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
